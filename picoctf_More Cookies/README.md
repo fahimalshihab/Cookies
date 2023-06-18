@@ -1,3 +1,14 @@
+## More Cookies
+ | 90 points
+Tags: 
+AUTHOR: MADSTACKS
+
+Description
+I forgot Cookies can Be modified Client-side, so now I decided to encrypt them! http://mercury.picoctf.net:56136/
+
+## Hints 
+https://en.wikipedia.org/wiki/Homomorphic_encryption
+
 ## Solution
 1) This is a continuation of the "Cookies" challenge, which I did not write up since it is very simple. However, this challenge is fairly difficult despite the point value.
 
