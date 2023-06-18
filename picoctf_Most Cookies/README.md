@@ -20,7 +20,7 @@ The app’s secret key is used to sign a flask session cookie so that it cannot 
 
 2) So, the first step is to go to the website and copy a session cookie: <code>eyJ2ZXJ5X2F1dGgiOiJibGFuayJ9.ZI9RUA.m8SdRNUSWyRR-H0lvcUPOTw-BMQ</code>
 
-We can write a script that uses the logic from Flask’s SecureCookieSessionInterface to decode and encode cookies.
+We can write a script that uses the logic from Flask’s SecureCookieSessionInterface(https://github.com/pallets/flask/blob/020331522be03389004e012e008ad7db81ef8116/src/flask/sessions.py#L304)to decode and encode cookies.
 
 But first we need to determine what value we should set in the cookie. We can find this on lines 45-47 of the server code.
 
